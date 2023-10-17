@@ -1,0 +1,6 @@
+git 용어정리
+
+git init : Git 저장소(repository)를 생성 , 여기에 작업할게요 라고 함
+git status : 현재 상태 확인
+git add : 다음 변경(commit)을 기록할 때까지 변경분을 모아놓기 위해(1차 준비? 과정)
+git commit :저장소의 Git 기록에 파일 변경 사항을 기록
