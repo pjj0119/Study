@@ -1,6 +1,17 @@
-git 용어정리
+##git 용어정리
 
+> 기초용어
 git init : Git 저장소(repository)를 생성 , 여기에 작업할게요 라고 함
 git status : 현재 상태 확인
-git add : 다음 변경(commit)을 기록할 때까지 변경분을 모아놓기 위해(1차 준비? 과정)
+git add : 다음 변경(commit)을 기록할 때까지 변경분을 모아놓기 위해(1차 준비? 과정) - git stage area > commit 하기 위한 대기 상태
 git commit :저장소의 Git 기록에 파일 변경 사항을 기록
+
+> 기록
+git log : git에 기록한 내용 확인
+git log -p : git에 기록한 내용 상세확인(바뀐내용)
+
+> 비교
+git diff 커밋1..커밋2 : 커밋1과 커밋2에 차이점을 표시
+
+> 과거
+git reset 커밋1 --h(--hard) : 커밋1로 돌아가고 그 이후는 삭제 (삭제한 커밋 복구 가능)
